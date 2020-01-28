@@ -8,3 +8,43 @@ div{
   border: 1px solid black;
   margin: 5px;
 }
+
+.huber {
+  background-color: pink;
+
+}
+
+.meier {
+  background-color:blue;  }
+
+  #lisa {
+    background: #5e2028;
+
+  }
+
+  
+  #sepp {
+    background:green;
+
+  }
+
+  div#lisa.meier {
+    background: red;
+  }
+
+  .huber #lisa.meier {
+    background: black;
+  }
+
+  div.huber #lisa.meier {
+    background: yellow;
+
+  }
+
+  html body div.huber div#lisa.meier {
+    background: grey;
+  }
+
+  #brigitte{
+    background: coral !important;
+  }
